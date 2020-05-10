@@ -182,4 +182,27 @@ Utilisation de `scanf();` pour recuperer une saisie utilisateurs il faut d'abord
 
 <!-- -->  
 ## Les raccourcis:  
+Les raccourcis nous servent a simplifier l'écriture d'une opération répétitive  
+### L'incrémentation:   
+Souvent nous serrons amener a ajouter 1 a une variable, puis au fur et a mesure de notre programme nous variables augmenterons de 1 en 1.  
+Un exemple j'ai une variable nommer `nombreDeVies` pour lui ajouter +1 je peux faire :  
+`nombreDeVies = nombreDeVies + 1;` 
+pas très pratique …  ou alors je peux faire ça:  
+`nombreDeVies++;`   
+Voila l'incrémentation c'est ça !  
+### La décrémentation:
+Même principe que l'incrémentation sauf que c'est pour faire l'inverse:  
+`nombreDeVies—;`  
+### Autre raccourcis:    
+    int nombre = 2;
+    
+    nombre += 4; // nombre vaut 6...
+    nombre -= 3; // ... nombre vaut maintenant 3
+    nombre *= 5; // ... nombre vaut 15
+    nombre /= 3; // ... nombre vaut 5
+    nombre %= 3; // ... nombre vaut 2 (car 5 = 1 * 3 + 2)
+
+## La bibliothèque mathématique:  
+
+
 
